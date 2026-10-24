@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16202b"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffeea8"/>
+      <stop offset="0.45" stop-color="#e8c33a"/>
+      <stop offset="1" stop-color="#a8801c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <g stroke="#2a3a4a" stroke-width="4" opacity="0.55">
+    <path d="M0 128h512M0 256h512M0 384h512M128 0v512M256 0v512M384 0v512"/>
+  </g>
+  <!-- 履带 -->
+  <rect x="96" y="140" width="56" height="250" rx="10" fill="#3a3f46"/>
+  <rect x="360" y="140" width="56" height="250" rx="10" fill="#3a3f46"/>
+  <g fill="#1d2126">
+    <rect x="96" y="160" width="56" height="14"/>
+    <rect x="96" y="196" width="56" height="14"/>
+    <rect x="96" y="232" width="56" height="14"/>
+    <rect x="96" y="268" width="56" height="14"/>
+    <rect x="96" y="304" width="56" height="14"/>
+    <rect x="96" y="340" width="56" height="14"/>
+    <rect x="360" y="160" width="56" height="14"/>
+    <rect x="360" y="196" width="56" height="14"/>
+    <rect x="360" y="232" width="56" height="14"/>
+    <rect x="360" y="268" width="56" height="14"/>
+    <rect x="360" y="304" width="56" height="14"/>
+    <rect x="360" y="340" width="56" height="14"/>
+  </g>
+  <!-- 车体 -->
+  <rect x="164" y="150" width="184" height="240" rx="18" fill="url(#body)"/>
+  <rect x="164" y="150" width="184" height="26" rx="10" fill="#fff6c9" opacity="0.85"/>
+  <!-- 炮管 -->
+  <rect x="240" y="70" width="32" height="110" rx="8" fill="#e8c33a"/>
+  <rect x="240" y="70" width="12" height="110" fill="#ffeea8" opacity="0.8"/>
+  <!-- 炮塔 -->
+  <circle cx="256" cy="230" r="62" fill="#ffd94d"/>
+  <circle cx="256" cy="230" r="40" fill="#a8801c"/>
+  <circle cx="256" cy="230" r="22" fill="#ffeea8"/>
+  <!-- 底部高光 -->
+  <rect x="164" y="356" width="184" height="34" rx="14" fill="#000" opacity="0.18"/>
+</svg>

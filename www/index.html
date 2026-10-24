@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover" />
+<meta name="theme-color" content="#0b0f14" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>坦克大战</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="game" width="416" height="416"></canvas>
+
+    <div id="hud">
+      <span id="hud-stage">STAGE 1</span>
+      <span id="hud-lives">♜ ×3</span>
+      <span id="hud-enemies">敌 0</span>
+      <span id="hud-score">0</span>
+    </div>
+
+    <button id="pause" type="button" aria-label="暂停">❚❚</button>
+
+    <div id="controls">
+      <div id="stick"><div id="stick-knob"></div></div>
+      <button id="fire" type="button" aria-label="开火">开火</button>
+    </div>
+
+    <div id="overlay"><div id="overlay-inner"></div></div>
+  </div>
+
+  <script src="js/audio.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

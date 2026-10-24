@@ -1,0 +1,13 @@
+{
+  "appId": "com.pingshunxing.tankbattle",
+  "appName": "坦克大战",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#07090c"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
